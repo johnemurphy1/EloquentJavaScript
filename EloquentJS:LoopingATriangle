@@ -1,0 +1,18 @@
+function triLoop(length){
+  let hash = "";
+  for (var j = 1; j<= length; j++){
+    hash += "#";
+  }
+  return hash + "\n";
+}
+
+function buildTriLoop(x){
+  var tri = '';
+
+  for(t=1; t<= x; t++){
+    tri +=triLoop(t);
+
+  }
+  return tri;
+}
+console.log(buildTriLoop(8));
