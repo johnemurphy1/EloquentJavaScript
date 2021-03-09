@@ -1,0 +1,6 @@
+function min(x,y){
+  console.log(Math.min(x,y));
+}
+min(7,11)
+
+//exercise was write a function that takes 2 arguments and returns their minimum
