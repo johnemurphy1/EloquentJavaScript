@@ -18,3 +18,5 @@ console.log(isRecursion(2));
 console.log(isRecursion(50));
 console.log(isRecursion(75));
 console.log(isRecursion(-1));
+
+//could also set variable to hold funtion and then 0 and 1 as variables in function
