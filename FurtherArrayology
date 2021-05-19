@@ -1,0 +1,16 @@
+let todoList = [];
+function remember(task){
+  todoList.push(task);
+}
+//adds task to end of array. index 0
+function getTask(){
+  return todoList.shift();
+}
+//removes task from beginning of array - index 0
+function rememberUrgently(task){
+  todoList.unshift(task);
+}
+//adds task to beginning of array - index 0
+
+remember("groceries");
+console.log(todoList);
