@@ -1,4 +1,4 @@
-
+// This takes an array and an index & returns new array this is copy of original array with element at given index removed.
 function remove(array, index){
   return array.slice(0, index).concat(array.slice(index + 1));
 }
