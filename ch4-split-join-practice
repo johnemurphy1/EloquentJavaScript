@@ -1,0 +1,7 @@
+//just wanted to see what .join and concat would look like with two strings
+let sentence1 = "This is a test of split.";
+let sentence2 = "Why not try again";
+let words1 = sentence1.split(" ");
+let words2 = sentence2.split(" ");
+console.log(words1.join(". "));
+console.log(words1.concat(words2));
