@@ -1,0 +1,20 @@
+p {
+  color:rgb(175, 109, 29);
+}
+
+.name{
+  color: aqua;
+}
+
+.adjective{
+  color: rgb(253, 214, 142);
+  font-weight: bold;
+
+}
+
+.weather{
+  color: pink;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  font-size: 2rem;
+  font-style: italic;
+}
