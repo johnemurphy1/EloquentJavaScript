@@ -1,0 +1,22 @@
+//write two functions: reverseArray and reverseArrayInPlace
+//reverseArray takes an array as an argument and produces a new array with the same elements in inverse order
+//reverseArrayInPlace function does what the reverse method does: it modifies array given as argument by reversing its elements
+//can not use JavaScript reverse method
+
+
+const array = [1,2,3,4,5];
+const revArray = [];
+
+function reverseArray(){
+
+
+  for(let i = array.length-1; i >= 0; i--){
+   
+    revArray.push(array[i]);
+    
+  }
+ return revArray; 
+}
+const result = reverseArray();
+console.log(result);
+//returns [5,4,3,2,1];
